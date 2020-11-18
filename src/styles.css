@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form input {
+  padding: 0.5rem 1rem;
+  width: 60%;
+  margin: 0 15px;
+  outline: 0;
+}
+
+.todo-list {
+  width: 60%;
+  margin: 15px auto;
+}
+
+.todo-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(219, 219, 252, 0.918);
+  padding: 1rem;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.btn {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 15px;
+}
+
+.is-complete {
+  text-decoration: line-through;
+}
